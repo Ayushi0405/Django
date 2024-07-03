@@ -3,6 +3,7 @@ from django.http import Http404
 from django.shortcuts import get_object_or_404, render
 from django.http import HttpResponse,HttpResponseRedirect
 from django.urls import reverse
+from django.utils import timezone
 
 from .models import Choice,Question
 class IndexView(generic.ListView):
