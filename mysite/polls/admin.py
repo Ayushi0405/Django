@@ -34,3 +34,5 @@ admin.site.register(Choice)
 # Register your models here.
 
 admin.site.register(Question)
+
+class ChoiceInline(admin.TabularInline): ...
